@@ -1,25 +1,25 @@
 class Portbook < Formula
   desc "Local web dashboard that auto-discovers and labels HTTP dev services running on localhost ports."
   homepage "https://github.com/a-grasso/portbook"
-  version "0.1.2"
+  version "0.1.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.2/portbook-aarch64-apple-darwin.tar.xz"
-      sha256 "13711a82f69dbafc124f39ef5a6ec165de445c8d0c6888441d5a036c2b0c1eb7"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.1.3/portbook-aarch64-apple-darwin.tar.xz"
+      sha256 "26601660ef3c2f38a995d3129b431c1701f1acb02a01b9e8907d2a0d41b5be4c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.2/portbook-x86_64-apple-darwin.tar.xz"
-      sha256 "6168ff95a916bfce337147db48f30be370c74d2320925f36939d8e1d343ca674"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.1.3/portbook-x86_64-apple-darwin.tar.xz"
+      sha256 "19d7b3dd53f2a371bd12916fe15dce54491851ee3c601db8957e70a060666190"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.2/portbook-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4964e3dcba605b8b746c168f571b9de8e7737e416031c8af7d24dc3f5d74681c"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.1.3/portbook-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "628003a775f6d5baebcad624dde20d308efe7a503713e4fefe639322fd22e72c"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.2/portbook-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "636dd2b5bc184979427049ab8373c7491b5de3b2a788ba98e68cec6edb068fb7"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.1.3/portbook-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "14089eb9061c440f95548d93ac4c4ea9181162c9898264191ba30aea17000bf9"
     end
   end
   license "MIT"
