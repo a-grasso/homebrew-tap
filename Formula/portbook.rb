@@ -1,25 +1,25 @@
 class Portbook < Formula
   desc "Local web dashboard that auto-discovers and labels HTTP dev services running on localhost ports."
   homepage "https://github.com/a-grasso/portbook"
-  version "0.1.6"
+  version "0.2.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.6/portbook-aarch64-apple-darwin.tar.xz"
-      sha256 "59d5f5ba01dbf200e2f6b80c1ec72c0c25c68feb41208222099b9f7b2bf4912b"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.2.0/portbook-aarch64-apple-darwin.tar.xz"
+      sha256 "c9f7036b3962be5273d2f8ec278b6227f1a8b0e5b1d7957d228e5e8a703c0153"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.6/portbook-x86_64-apple-darwin.tar.xz"
-      sha256 "cc50b13c4804c640a823f3f31b4ee4c68a1cd2a581314fa921f6d61c30cc20cc"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.2.0/portbook-x86_64-apple-darwin.tar.xz"
+      sha256 "f5eea579692dbce3170f821336927d7fe438af4667cd0e1d67cdc51bbc68f1ce"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.6/portbook-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "0541eba7da705b610446bd2469196b4fd2176fef064532dd3071a124c78092e8"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.2.0/portbook-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3222fa8882022ba966605acb24c477e642f35bf1a4a2258cfda65ea1ee511fc0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/a-grasso/portbook/releases/download/v0.1.6/portbook-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0edb3a0ecf370469a3a579f4d09aee500418033c8912b80b53bbcb56b60a259b"
+      url "https://github.com/a-grasso/portbook/releases/download/v0.2.0/portbook-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c844b26beffce5eab21aab7aefae74bec0c2dd3a8fa51e78d43ff26d5bf241eb"
     end
   end
   license "MIT"
