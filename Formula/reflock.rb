@@ -3,8 +3,8 @@ require "language/python"
 class Reflock < Formula
   desc "Lockfile for cross-references in a mixed docs and code tree"
   homepage "https://github.com/a-grasso/reflock"
-  url "https://github.com/a-grasso/reflock/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "58c9c62f917b9e4cb34401641cf866f572f31ea6f1b4a1408e565a2a83870118"
+  url "https://github.com/a-grasso/reflock/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "5b2f488932020cbec674fd5eb1f381966388090b10e100e75f52e7958f029de6"
   license "MIT"
 
   depends_on "python@3.13"
