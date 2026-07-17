@@ -1,6 +1,8 @@
 require "language/python"
 
 class Reflock < Formula
+  include Language::Python::Shebang
+
   desc "Lockfile for cross-references in a mixed docs and code tree"
   homepage "https://github.com/a-grasso/reflock"
   url "https://github.com/a-grasso/reflock/archive/refs/tags/v0.1.1.tar.gz"
