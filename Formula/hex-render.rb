@@ -1,25 +1,25 @@
 class HexRender < Formula
   desc "Render a hexarch DSL file to an interactive architecture diagram"
   homepage "https://github.com/a-grasso/hexarch"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.0/hex-render-aarch64-apple-darwin.tar.xz"
-      sha256 "4b98343b405af8a1bcedbf09a389146ec5068dba1a108a94b7f95b6c5a906d32"
+      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-aarch64-apple-darwin.tar.xz"
+      sha256 "373a16a41bd1ade69a0ca1230519507131410911a61b4f3a7e9cf28006c56205"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.0/hex-render-x86_64-apple-darwin.tar.xz"
-      sha256 "34bf499d652b1a816b799bd22d2bca9c06ea84ab40c5fe1357514d39afda37cc"
+      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-x86_64-apple-darwin.tar.xz"
+      sha256 "2b48d26148f9b150f226b06eb8c5c17997601984618ed3441dcf1dabdc79d2cb"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.0/hex-render-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5ed17f4585ac93c6b3efe1896c685ce067afeb08d716a9bb31d62eceaf58b799"
+      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "05cf53e3f4e015879b2505484636579e071386886ac0bdd72846665c064b97c7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.0/hex-render-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "36d1447fc78d6716d685808186f56237b4918f2e979d3127c8118233e5055ab8"
+      url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4da814972df14307f9d106ecb4731547eb3e0168c48991bff3f9b89248ef867a"
     end
   end
   license "MIT"
