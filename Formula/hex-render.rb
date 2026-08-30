@@ -5,21 +5,21 @@ class HexRender < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-aarch64-apple-darwin.tar.xz"
-      sha256 "373a16a41bd1ade69a0ca1230519507131410911a61b4f3a7e9cf28006c56205"
+      sha256 "da2f575188771ad6e1f326452e1770c4739dea40568f7c433d4f7dd9d922ef4b"
     end
     if Hardware::CPU.intel?
       url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-x86_64-apple-darwin.tar.xz"
-      sha256 "2b48d26148f9b150f226b06eb8c5c17997601984618ed3441dcf1dabdc79d2cb"
+      sha256 "f7c67d6a3b4d9d5a8e65e01ca48819e970dd19dbd9449925db5be0284557642a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "05cf53e3f4e015879b2505484636579e071386886ac0bdd72846665c064b97c7"
+      sha256 "9536d64e9b3e61a452512d5676d0525ab273f6db940f64012c12edbe9e007427"
     end
     if Hardware::CPU.intel?
       url "https://github.com/a-grasso/hexarch/releases/download/v0.1.1/hex-render-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "4da814972df14307f9d106ecb4731547eb3e0168c48991bff3f9b89248ef867a"
+      sha256 "9f3aea4966886bd72741776eb7e048a690619c64aa483652bceeae22878cb58a"
     end
   end
   license "MIT"
