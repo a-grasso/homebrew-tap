@@ -1,8 +1,8 @@
 class Cursorwrap < Formula
   desc "Wrap the mouse pointer around the outer edges of a multi-display macOS desktop"
   homepage "https://github.com/a-grasso/cursorwrap"
-  url "https://github.com/a-grasso/cursorwrap/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "900fa43d8d5118f3cdf9aab1a8893d5b2d682df0dba848566b881c8dd7c6ce1e"
+  url "https://github.com/a-grasso/cursorwrap/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "ef407d25b2ed86f2abf7901de564458f6c64e61605a3a84bf55ce44400fac445"
   license "MIT"
 
   # Built from source rather than shipped as a cask: the app is signed ad-hoc,
