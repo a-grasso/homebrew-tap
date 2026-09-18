@@ -5,8 +5,8 @@ class Reflock < Formula
 
   desc "Lockfile for cross-references in a mixed docs and code tree"
   homepage "https://github.com/a-grasso/reflock"
-  url "https://github.com/a-grasso/reflock/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "e26733f335a275cffd903e4731baa35458c496dbf31625301d19746d60a9508c"
+  url "https://github.com/a-grasso/reflock/archive/refs/tags/v0.4.2.tar.gz"
+  sha256 "abe654c725eb760575bad1d673f525c7b2fa356ad3d83bc94ad175732b688765"
   license "MIT"
 
   depends_on "python@3.13"
